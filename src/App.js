@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     async function getUsers() {
-      const url = "http://demo2211087.mockable.io/mock";
+      const url = "https://demo2211087.mockable.io/mock";
 
       const response = await fetch(url, {
         method: "POST",
