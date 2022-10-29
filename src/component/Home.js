@@ -4,7 +4,7 @@ function Home(props) {
       const  {data } = props
       console.log(data);
       return (
-        <div> 
+        <div className="container"> 
             {
                 data.map((item, index)=>
                 <div className="itemBox">

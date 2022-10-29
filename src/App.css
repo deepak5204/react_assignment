@@ -1,13 +1,15 @@
-.App {
-  text-align: center;
-}
 
 
 .itemBox{
   display: flex;
+  margin: 10;
+  justify-content: center;
 }
 
 .list{
   margin-left: 1.25rem;
   list-style: none;
+  text-align: center;
+  /* margin: auto; */
+  align-items: center;
 }
